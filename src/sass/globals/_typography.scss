@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Fraunces 144pt";
+  src: url("../assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf")
+    format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("../assets/fonts/manrope/static/Manrope-Regular.ttf")
+    format("truetype");
+    font-display: swap;
+}
+
+:root {
+  // Fonts families
+  --ff-Fraunces: "Fraunces 144pt";
+  --ff-Manrope: "Manrope";
+
+  // Font sizes
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-48: 3rem;
+  --fs-50: 3.125rem;
+  --fs-56: 3.5rem;
+  --fs-60: 3.75rem;
+  --fs-80: 5rem;
+
+  // Font weights
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
+h1,
+h2 {
+  color: var(--white);
+  font-family: var(--ff-Fraunces);
+  font-weight: var(--fw-600);
+  margin-top: 0;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
